@@ -1,0 +1,54 @@
+<------- GO through Project documention better understand how it  works ------->
+
+                                        <<<<<<Weather App Documentation>>>>>>>>
+
+Overview-
+The Weather App is a web application that provides users with current weather information for a specified location. 
+It utilizes HTML, CSS, and JavaScript for the frontend, and integrates with the OpenWeatherMap API to fetch weather data.
+
+Features-
+1.Current Weather Display: Shows the current weather conditions, including temperature, humidity, wind speed.
+2.Dynamic Backgrounds: Changes the background image based on the weather condition.
+3.Responsive Design: Ensures optimal viewing experience across various devices.
+
+Technologies Used-
+* HTML: Provides the structure of the web page.
+* CSS: Styles the elements for an attractive and intuitive user interface.
+* JavaScript: Implements the functionality of the app, including fetching weather data and updating the UI dynamically.
+* OpenWeatherMap API: Retrieves weather information based on user input.
+
+Installation-
+1.Clone the repository from GitHub using Git Bash or download the ZIP file.
+2.Navigate to the project directory  in your preferred code editor.
+3.Open "index.html" in a browser to access the Weather App.
+4.To use the application, you will need to obtain a free API key from OpenWeatherMap (https://openweathermap.org/api).
+
+Usage-
+Upon loading the app, the current weather for the default location is displayed.
+The app fetches weather data for the current location and updates the display accordingly.
+Enjoy the current weather information along with dynamic background images!
+
+Configuration
+To use the Weather App with your OpenWeatherMap API key, follow these steps:
+
+Sign up for an account on OpenWeatherMap and obtain an API key.
+
+Open the script.js file in the project directory.
+
+Replace "YOUR_API_KEY" with your actual API key in the API_KEY variable:
+
+eg: const API_KEY = "YOUR_API_KEY";
+
+Future Enhancements:
+Add functionality to search for specific cities instead of just displaying the current weather.
+
+Implement a feature that changes the background image dynamically based on the weather condition.
+
+Add some more animation effects to make the app more interactive. 
+
+Credits:
+OpenWeatherMap: Provides weather data through the API.
+Unsplash: Offers free high-quality images used for dynamic backgrounds.
+
+Contact
+For any inquiries or issues, please contact us at himmatsingh7808@gmail.com
